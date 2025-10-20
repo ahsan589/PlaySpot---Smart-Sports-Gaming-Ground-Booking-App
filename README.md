@@ -1,82 +1,67 @@
-🏏 PlaySpot — Smart Sports & Gaming Ground Booking App
-📱 React Native (Player & Owner) | 🌐 React.js (Admin Panel)
+# 🏏 PlaySpot — Smart Sports & Gaming Ground Booking App  
+📱 **React Native (Player & Owner)** | 🌐 **React.js (Admin Panel)**  
 
-🧠 Overview
-PlaySpot is a complete sports and gaming ground management system that connects players with ground owners.
-It allows players to find, book, and pay for nearby grounds or gaming arenas, while owners can manage their grounds, bookings, and earnings — all from one app.
-An Admin Panel (React.js) manages users, complaints, and platform statistics.
+---
 
-🚀 Features
-🧍‍♂️ Player App (React Native)
-🔍 Search and filter nearby venues and watch on Map
-📅 Book sports grounds or gaming arenas instantly
-💰 Payment proof upload via screenshot
-💬 Submit complaints about bookings or grounds
-📜 View booking history and status updates
+## 🧠 Overview  
 
-🧑‍💼 Owner App (React Native)
-🏟️ Add and manage grounds/sport complexes
-📅 Approve or reject bookings
-💵 Track total earnings and income reports
-⚠️ Handle player complaints
+**PlaySpot** is a complete **sports and gaming ground management system** that connects players with ground owners.  
+It allows **players** to find, book, and pay for nearby grounds or gaming arenas, while **owners** can manage their grounds, bookings, and earnings — all from one app.  
+An **Admin Panel (React.js)** manages users, complaints, and platform statistics.
 
-🖥️ Admin Panel (React.js)
-👥 Manage users (Players & Owners)
-🏟️ View and approve new grounds
-💬 Monitor and respond to complaints
-📊 Dashboard analytics for bookings, payments & activity
+---
 
-💳 Payment Method
+## 🚀 Features  
 
-Simple payment proof upload (screenshot) system.
-Owner/admin can verify manually from panel.
+### 🧍‍♂️ Player App (React Native)  
+- 🔍 Search and filter nearby venues and view them on a map  
+- 📅 Book sports grounds or gaming arenas instantly  
+- 💰 Upload payment proof via screenshot  
+- 💬 Submit complaints about bookings or grounds  
+- 📜 View booking history and booking status updates  
 
-🗺️ Location Features
-Integrated Google Maps API for ground searching and location picking.
-Players can view distance-based venue on Map.
+### 🧑‍💼 Owner App (React Native)  
+- 🏟️ Add and manage grounds or sport complexes  
+- 📅 Approve or reject player bookings  
+- 💵 Track total earnings and income reports  
+- ⚠️ Handle player complaints and feedback  
 
-🛠️ Tech Stack
-Platform	Framework / Library
-Mobile App	React Native
-Web Admin Panel	React.js
-Backend	Firebase (Firestore + Auth)
-Maps	Google Maps API
-Payment	Manual Screenshot Proof
-Storage	Firebase Storage
-UI	React Native Paper / Custom Components
+### 🖥️ Admin Panel (React.js)  
+- 👥 Manage all users (Players & Owners)  
+- 🏟️ View and approve newly added grounds  
+- 💬 Monitor and respond to complaints  
+- 📊 Dashboard analytics for bookings, payments, and user activity  
 
-🧩 Project Structure
+---
 
-⚙️ Installation & Setup
-🧱 Clone the Repository
-git clone https://github.com/ahsan589/PlaySpot---Smart-Sports-Gaming-Ground-Booking-App.git
+## 💳 Payment Method  
 
-📱 Setup Mobile App
-npm install
-npx expo start
+- Simple **payment proof upload (screenshot)** system  
+- Owners/Admins can verify payments manually through the admin panel  
 
-🌐 Setup Admin Panel
-npm install
-npm run dev
+---
 
+## 🗺️ Location Features  
 
-Ensure you have a valid Firebase project connected for authentication, Firestore, and storage.
+- Integrated **Google Maps API** for location-based ground search  
+- Players can **view nearby venues** directly on the map  
+- Accurate location detection for convenient booking  
 
-🔐 Roles Summary
-Role	Platform	Key Permissions
-Player	Mobile	Book grounds, pay, complain
-Owner	Mobile	Manage grounds, bookings, and earnings
-Admin	Web	Manage users, grounds, and reports
-🏆 Highlights
+---
 
-Dual-role mobile app (Player & Owner)
+## 🛠️ Tech Stack  
 
-Admin web dashboard
+| Platform | Framework / Library |
+|-----------|--------------------|
+| **Mobile App** | React Native |
+| **Web Admin Panel** | React.js |
+| **Backend** | Firebase (Firestore + Auth) |
+| **Maps** | Google Maps API |
+| **Payment** | Manual Screenshot Proof |
+| **Storage** | Firebase Storage |
+| **UI** | React Native Paper / Custom Components |
 
-Location-based ground search
+---
 
-Payment proof system
+## 🧩 Project Structure  
 
-Firebase-powered backend
-
-Clean UI and responsive layout
