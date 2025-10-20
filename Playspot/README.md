@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+🏏 PlaySpot — Smart Sports & Gaming Ground Booking App
+📱 React Native (Player & Owner) | 🌐 React.js (Admin Panel)
+🧠 Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+PlaySpot is a complete sports and gaming ground management system that connects players with ground owners.
+It allows players to find, book, and pay for nearby grounds or gaming arenas, while owners can manage their grounds, bookings, and earnings — all from one app.
+An Admin Panel (React.js) manages users, complaints, and platform statistics.
 
-## Get started
+🚀 Features
+🧍‍♂️ Player App (React Native)
 
-1. Install dependencies
+🔍 Search nearby grounds using map and GPS location
 
-   ```bash
-   npm install
-   ```
+📅 Book sports grounds or gaming arenas instantly
 
-2. Start the app
+💰 Payment proof upload via screenshot
 
-   ```bash
-   npx expo start
-   ```
+💬 Submit complaints about bookings or grounds
 
-In the output, you'll find options to open the app in a
+📜 View booking history and status updates
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🧑‍💼 Owner App (React Native)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🏟️ Add and manage grounds/sport complexes
 
-## Get a fresh project
+📅 Approve or reject bookings
 
-When you're ready, run:
+💵 Track total earnings and income reports
 
-```bash
-npm run reset-project
-```
+⚠️ Handle player complaints
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🖥️ Admin Panel (React.js)
 
-## Learn more
+👥 Manage users (Players & Owners)
 
-To learn more about developing your project with Expo, look at the following resources:
+🏟️ View and approve new grounds
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+💬 Monitor and respond to complaints
 
-## Join the community
+📊 Dashboard analytics for bookings, payments & activity
 
-Join our community of developers creating universal apps.
+💳 Payment Method
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Simple payment proof upload (screenshot) system.
+
+Owner/admin can verify manually from panel.
+
+🗺️ Location Features
+
+Integrated Google Maps API for ground searching and location picking.
+
+Players can view distance-based ground suggestions.
+
+🛠️ Tech Stack
+Platform	Framework / Library
+Mobile App	React Native
+Web Admin Panel	React.js
+Backend	Firebase (Firestore + Auth)
+Maps	Google Maps API
+Payment	Manual Screenshot Proof
+Storage	Firebase Storage
+UI	React Native Paper / Custom Components
