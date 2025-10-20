@@ -71,13 +71,13 @@ git clone https://github.com/ahsan589/PlaySpot---Smart-Sports-Gaming-Ground-Book
 
 ### 📱 Setup Mobile App
 
-npm install
-npx expo start
+- npm install
+- npx expo start
 
 ### 🌐 Setup Admin Panel
 
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 Ensure you have a valid Firebase project configured for authentication, Firestore, and storage.
 
