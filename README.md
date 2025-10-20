@@ -63,5 +63,34 @@ An **Admin Panel (React.js)** manages users, complaints, and platform statistics
 
 ---
 
-## 🧩 Project Structure  
+## ⚙️ Installation & Setup  
 
+### 🧱 Clone the Repositor
+
+git clone https://github.com/ahsan589/PlaySpot---Smart-Sports-Gaming-Ground-Booking-App.git
+
+###📱 Setup Mobile App
+
+npm install
+npx expo start
+
+###🌐 Setup Admin Panel
+
+npm install
+npm run dev
+
+Ensure you have a valid Firebase project configured for authentication, Firestore, and storage.
+
+##🔐 Roles Summary
+Role	Platform	Key Permissions
+Player	Mobile	Book grounds, make payments, submit complaints
+Owner	Mobile	Manage grounds, bookings, and earnings
+Admin	Web	Manage users, grounds, bookings, and complaints
+
+##🏆 Highlights
+✅ Dual-role mobile app (Player & Owner)
+✅ Admin web dashboard for overall management
+✅ Location-based ground and arena search
+✅ Simple payment proof verification
+✅ Firebase-powered real-time backend
+✅ Clean UI and responsive design
