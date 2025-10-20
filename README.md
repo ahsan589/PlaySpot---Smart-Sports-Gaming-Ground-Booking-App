@@ -1,7 +1,7 @@
 🏏 PlaySpot — Smart Sports & Gaming Ground Booking App
 📱 React Native (Player & Owner) | 🌐 React.js (Admin Panel)
-🧠 Overview
 
+🧠 Overview
 PlaySpot is a complete sports and gaming ground management system that connects players with ground owners.
 It allows players to find, book, and pay for nearby grounds or gaming arenas, while owners can manage their grounds, bookings, and earnings — all from one app.
 An Admin Panel (React.js) manages users, complaints, and platform statistics.
