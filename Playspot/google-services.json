@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "356197086590",
+    "firebase_url": "https://indoorgames-6b42b-default-rtdb.firebaseio.com",
+    "project_id": "indoorgames-6b42b",
+    "storage_bucket": "indoorgames-6b42b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356197086590:android:7b761a79d2426226d62f2f",
+        "android_client_info": {
+          "package_name": "com.ahsan4198.indoorgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQs_xTX-X181h07YOkerFMzKgRN7fZ6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

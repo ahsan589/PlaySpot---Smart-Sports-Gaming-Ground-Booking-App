@@ -1,0 +1,3 @@
+- [x] Add LoadingAnimation component to app/index.tsx
+- [x] Replace loading text with LoadingAnimation
+- [x] Replace redirecting text with LoadingAnimation
